@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  background-image: url(https://www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo-825x510.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.usuarios {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  justify-content: space-around;
+  height: 85vh;
+}
+
+.formulario {
+  color: #43ddf8;
+  width: 50vh;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.mensajes {
+  width: 50vh;
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+.formulario button {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.formulario button:hover {
+  color: black;
+  background-color: #43ddf8;
+}
+
+form label {
+  padding: 5px;
+}
+
+#lista ul {
+  color: white;
+  border: 1px solid;
+  list-style-type: none;
+}
+
+#lista ul:hover {
+  background-color: #43ddf8;
+  opacity: 0.8;
+  color: black;
+}
+
+.home {
+  height: 85vh;
+  margin-top: 20px;
+}
+
+.home h3 {
+  color: aqua;
+}
+
+.main {
+  text-align: center;
+}
+
+.endpage {
+  text-align: center;
+}
+h4 {
+  color: white;
+  font-size: 20px;
+}
+
+#navbar ul {
+  height: 10vh;
+  font-size: 20px;
+  background-color: #43ddf8;
+}
+
+#homepage:hover {
+  background-color: black;
+}
+
+.activo {
+  color: white;
+  font-style: italic;
+}
+
+.noactivo {
+  color: black;
+  font-style: normal;
+}
+
+.activo2 {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.contacto {
+  font-size: 20px;
+  background-color: #43ddf8;
+  padding: 5px;
+}
+
+.movil {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.email {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+}
